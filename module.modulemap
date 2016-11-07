@@ -1,5 +1,3 @@
-module CJPEG [system] {
-    header "/usr/include/xmlrpc-c/config.h"
-    link "xmlrpc"
-    export *
+module CXmlRpcConfig [system] {
+    header "config.h"
 }
