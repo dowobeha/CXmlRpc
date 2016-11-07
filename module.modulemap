@@ -1,5 +1,5 @@
 module CJPEG [system] {
-    header "/usr/include/jpeglib.h"
-    link "jpeg"
+    header "/usr/include/xmlrpc.h"
+    link "xmlrpc"
     export *
 }
