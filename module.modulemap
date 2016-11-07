@@ -1,3 +1,7 @@
-module CXmlRpc [system] {
+module CXlocale [system] {
     header "/usr/include/xlocale.h"
+}
+
+module CXmlRpc [system] {
+    header "/usr/include/xmlrpc.h"
 }
