@@ -1,3 +1,4 @@
 module CXmlRpc [system] {
     header "config.h"
+    header "base.h"
 }
