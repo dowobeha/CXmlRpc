@@ -1,0 +1,5 @@
+module CJPEG [system] {
+  header "/usr/include/CJPEG.h"
+  link "CJPEG"
+  export *
+}
