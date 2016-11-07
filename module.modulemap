@@ -4,6 +4,6 @@ module CXlocale [system] {
 
 module CXmlRpc [system] {
     header "/usr/include/xmlrpc.h"
-    link "xmlrpc"
+    link "/usr/lib/x86_64-linux-gnu/libxmlrpc.so"
     export *
 }
