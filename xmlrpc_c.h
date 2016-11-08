@@ -2,7 +2,7 @@
 #include "/usr/include/xlocale.h"
 #include <sys/types.h>
 #import "abyss.h"
-#import "abyss_unixsock.h"
+
 #import "base.h"
 #import "client_global.h"
 #import "client.h"
