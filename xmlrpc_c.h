@@ -1,3 +1,4 @@
+#include "/usr/include/termios.h"
 #include <sys/types.h>
 #import "abyss.h"
 #import "abyss_unixsock.h"
