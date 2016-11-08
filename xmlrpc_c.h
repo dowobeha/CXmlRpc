@@ -11,6 +11,5 @@
 #import "server_abyss.h"
 #import "server_cgi.h"
 #import "server.h"
-#import "server_w32httpsys.h"
 #import "transport.h"
 #import "util.h"
