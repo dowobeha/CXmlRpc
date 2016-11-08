@@ -1,3 +1,7 @@
+module CXlocale [system] {
+    header "/usr/include/xlocale.h"
+}
+
 module CXmlRpc [system] {
     umbrella header "xmlrpc_c.h"
     link "xmlrpc"
