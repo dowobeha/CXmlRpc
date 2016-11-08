@@ -7,3 +7,9 @@ module CXmlRpc [system] {
     link "xmlrpc"
     export *
 }
+
+module CXmlRpcAbyss [system] {
+    header "/usr/include/xmlrpc-c/server_abyss.h"
+    link "xmlrpc_abyss"
+    export *
+}
