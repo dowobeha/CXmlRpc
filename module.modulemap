@@ -5,5 +5,14 @@ module CXlocale [system] {
 module CXmlRpc [system] {
     umbrella header "xmlrpc_c.h"
     link "xmlrpc"
+    link "xmlrpc_abyss"
+    link "xmlrpc_client"
+    link "xmlrpc_packetsocket"
+    link "xmlrpc_server_abyss"
+    link "xmlrpc_server_cgi"
+    link "xmlrpc_server"
+    link "xmlrpc_util"
+    link "xmlrpc_xmlparse"
+    link "xmlrpc_xmltok"
     module * { export * }
 }
