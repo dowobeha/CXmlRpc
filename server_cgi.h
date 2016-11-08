@@ -1,1 +1,1 @@
-#include <xmlrpc-c/server_cgi.h>
+#import <xmlrpc-c/server_cgi.h>
