@@ -1,5 +1,5 @@
 module CXmlRpc [system] {
     umbrella header "xmlrpc_c.h"
     link "xmlrpc"
-    explicit module * { export * }
+    module * { export * }
 }
