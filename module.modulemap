@@ -1,4 +1,5 @@
 module CXmlRpc [system] {
+    requires SwiftGlibc.POSIX.termios
     umbrella header "xmlrpc_c.h"
     link "xmlrpc"
     module * { export * }
