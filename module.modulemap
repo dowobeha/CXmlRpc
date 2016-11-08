@@ -1,16 +1,5 @@
-module CXlocale [system] {
-    header "/usr/include/xlocale.h"
-}
-
 module CXmlRpc [system] {
-    header "/usr/include/xmlrpc.h"
+    header "xmlrpc_c.h"
     link "xmlrpc"
-    export *
-}
-
-module CXmlRpcAbyss [system] {
-    header "/usr/include/xmlrpc-c/abyss.h"
-    header "/usr/include/xmlrpc-c/server_abyss.h"
-    link "xmlrpc_abyss"
-    export *
+    explicit module * { export * }
 }
